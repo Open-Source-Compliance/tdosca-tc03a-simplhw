@@ -48,4 +48,4 @@ To compile and install the program itself, do this:
 
 ## 6. Licensing <a id="lic"></a>
 
-The *input* the project *tdosca-tc01-simplhw* is licensed under the terms of the MIT license. See the file COPYING in the top directory
+The *input* the project *tdosca-tc03a-simplhw* is licensed under the terms of the MIT license. See the file COPYING in the top directory
