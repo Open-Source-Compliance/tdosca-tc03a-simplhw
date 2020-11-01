@@ -36,7 +36,7 @@ The test data of this test case (the program sources in ``input-sources``
 * For specific challenges of this test case the [compliance-traps.md](compliance-traps.md)
 
 **HINT**: 
-1. Using *gradle* with all options (= ``gradle init``)  evokes an immanent compliance trap, because (parts of) gradle become part of the repository. These would be licensed under teh Apache-V2 license. Hence distributing the repository (by cloning / downloading it) would require, that the respective *gradle* compliance artifacts must also be integrated into the repo.
+1. Using *gradle* with all options (= ``gradle init``)  would evoke an immanent compliance trap, because (parts of) gradle would become part of the repository. These parts would be licensed under the Apache-V2 license. Hence distributing the repository (even by cloning / downloading it from GitHub) would require, that the respective *gradle* compliance artifacts would have also to be integrated into the repo.
 2. For easing this 'merge', the test case 03a does not offer the complete gradle methods, but requires gradle to be installed on the development machine.
 
 
