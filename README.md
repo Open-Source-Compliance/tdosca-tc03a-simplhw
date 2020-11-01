@@ -1,4 +1,4 @@
-# Test-Driven Open Source Compliance Automation Test Case No. 3a: a Simple Hello World wiht JAVA and gradle
+# Test-Driven Open Source Compliance Automation Test Case No. 3a: a Simple Hello World with JAVA and gradle
 
 ## General Context
 The "Test-Driven Open Source Compliance Automation" is an initiative initiated by Deutsche Telekom AG and hosted and driven by the [Open Chain Reference Tooling Work Group](http://oss-compliance-tooling.org/).
