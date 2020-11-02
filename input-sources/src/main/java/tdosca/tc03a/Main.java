@@ -5,12 +5,12 @@
  * For details see the file COPYING in the top directory.
  */
 
-package de.fodina.tdosca.tc3;
+package tdosca.tc03a;
 
 public class Main {
   public static void main(String[] args) {
     GreetingService service = new GreetingService();
-    System.out.println("de.fodina.tdosca.tc3.Main says 'hello'.");
+    System.out.println("tdosca.tc03a.Main says 'hello'.");
     System.out.println("license:MIT");
     if ((args == null) || (args.length == 0)){
       service.greet();
@@ -18,6 +18,6 @@ public class Main {
     else {
       service.greet(args[0]);
     }
-    System.out.println("de.fodina.tdosca.tc3.Main says 'bye bye'");
+    System.out.println("tdosca.tc03a.Main says 'bye bye'");
   }
 }

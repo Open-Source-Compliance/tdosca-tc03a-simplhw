@@ -5,7 +5,7 @@
  * For details see the file COPYING in the top directory.
  */
 
-package de.fodina.tdosca.tc3;
+package tdosca.tc03a;
 
 import org.junit.Before;
 import org.junit.Test;

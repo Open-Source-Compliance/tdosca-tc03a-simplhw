@@ -4,7 +4,7 @@
 * Copyright (C) 2020 kreincke / Deutsche Telekom AG
 */
 
-package de.fodina.tdosca.all;
+package tdosca.all;
 
 import org.junit.Before;
 import org.junit.Test;

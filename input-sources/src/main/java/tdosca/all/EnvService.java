@@ -26,7 +26,7 @@
 * POSSIBILITY OF SUCH DAMAGE.
 */
 
-package de.fodina.tdosca.all;
+package tdosca.all;
 
 import java.util.Map;
 

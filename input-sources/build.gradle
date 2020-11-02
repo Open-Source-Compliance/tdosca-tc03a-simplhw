@@ -5,7 +5,7 @@ apply plugin: 'application'
 //apply plugin: 'idea'
 //apply plugin: 'eclipse'
 
-mainClassName = "de.fodina.tdosca.tc3.Main"
+mainClassName = "tdosca.tc03a.Main"
 
 run.args = ["Reader"]
 
@@ -24,15 +24,16 @@ dependencies {
 }
 
 task copyLicense {
-    outputs.file new File("$buildDir/COPYING")
+    outputs.file new File("${buildDir}/share/doc/tdosca-tc03a/COPYING")
     doLast {
+        mkdir "${buildDir}/share/doc/tdosca-tc03a"
         copy {
             from "COPYING"
-            into "$buildDir"
+            into "${buildDir}/share/doc/tdosca-tc03a/"
         }
     }
 }
 
 applicationDistribution.from(copyLicense) {
-    into ""
+    into "share/doc/tdosca-tc03a"
 }
