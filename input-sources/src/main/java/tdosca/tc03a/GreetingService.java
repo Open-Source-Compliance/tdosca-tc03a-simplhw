@@ -10,18 +10,19 @@ import tdosca.all.EnvService;
 
 public class GreetingService {
   EnvService envservice = new EnvService();
+  String inc = "---";
   public String greet(String garg) {
-    System.out.println("...tdosca.tc03a.GreetingService(" + garg + ") says 'hello'.");
-    System.out.println("license:MIT");
+    System.out.println(inc+"tdosca.tc03a.GreetingService(" + garg + "): 'hello'.");
+    System.out.println(inc+"license(GreetingService,M.I.T)");
     envservice.info();
-    System.out.println("...tdosca.tc03a.GreetingService(...) says 'bye bye'");
+    System.out.println(inc+"tdosca.tc03a.GreetingService(...): 'bye bye'");
     return "back1";
   }
   public String greet() {
-    System.out.println("tdosca.tc03a.GreetingService() says 'hello'.");
-    System.out.println("license:MIT");
+    System.out.println(inc+"tdosca.tc03a.GreetingService(): 'hello'.");
+    System.out.println(inc+": license(GreetingService,M.I.T)");
     envservice.info();
-    System.out.println("...tdosca.tc03a.GreetingService(...) says 'bye bye'");
+    System.out.println(inc+"tdosca.tc03a.GreetingService(...): 'bye bye'");
     return "back0";
   }
 }
