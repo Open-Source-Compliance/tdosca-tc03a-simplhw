@@ -24,7 +24,7 @@ This test case follows the general pattern of a TDOSCA test case:
 
 ### Intention
 
-The test data of this test case (the program sources in ``input-sources``
+The test data of this test case (the program sources in ``input-sources``)
 
 * can be compiled, installed and used by the respective gradle commands
 * consist of three java files (*Main.java*, *GreetingService.java* and *EnvService.java*) and the respective gradle files to use them
@@ -44,6 +44,4 @@ The test data of this test case (the program sources in ``input-sources``
 
 * The software delivered as content of the test case directory ``input-sources`` is licensed under the licenses the test case uses to challenge the compliance tools. Contributions take place under the same licenses.
 
-* Unless otherwise specified, all other files are distributed under the terms of the [CC-BY-4.0 license](https://creativecommons.org/licenses/by/4.0/).
-  - If you share or adapt (one of) the files add the attribution: "File originates from [https://github.com/Open-Source-Compliance/tdosca-tc03a-simplhw](https://github.com/Open-Source-Compliance/tdosca-tc03a-simplhw) initiated by Deutsche Telekom AG"
-  - If you distribute the complete test case add the attribution: "The test case https://github.com/Open-Source-Compliance/tdosca-tc03a-simplhw](https://github.com/Open-Source-Compliance/tdosca-tc03a-simplhw) originates from the TDOSCA project initiated by Deutsche Telekom AG"
+* Unless otherwise specified, all other files are distributed under the terms of the [CC-BY-4.0 license](https://creativecommons.org/licenses/by/4.0/): If you share or adapti this tect case or (one of) the files, please add the attribution: "File originates from [https://github.com/Open-Source-Compliance/tdosca-tc03a-simplhw](https://github.com/Open-Source-Compliance/tdosca-tc03a-simplhw) initiated by Deutsche Telekom AG"
