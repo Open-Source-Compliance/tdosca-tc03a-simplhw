@@ -40,7 +40,7 @@ To compile and install the program itself, do this:
 * Change into the directory *input-sources*
 * Call
   - ``gradle run``
-  - or ``java -cp build/libs/tdosca-tc03a.jar tdosca.tc3.Main``
+  - or ``java -cp build/libs/tdosca-tc03a.jar tdosca.tc03a.Main``
   - or
     - ``unzip build/distributions/tdosca-tc03a-simplhw.zip`` and
     - ``cd tdosca-tc03a-simplhw`` and
