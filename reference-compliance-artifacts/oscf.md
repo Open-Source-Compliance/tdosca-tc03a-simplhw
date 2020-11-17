@@ -45,7 +45,7 @@ THE SOFTWARE.
 ```
 <!-- deviantly licensed directories -->
 - Scope: FILE
-  - LicenseID: BSD-2CL
+  - LicenseID: BSD-2-Clause
   - File: `src/main/java/de/tdosca/all/EnvService.java`
   - LicenseText:
 
