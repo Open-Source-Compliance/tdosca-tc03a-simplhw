@@ -45,8 +45,8 @@ THE SOFTWARE.
 ```
 <!-- deviantly licensed directories -->
 - Scope: FILE
-  - LicenseID: BSD-2-Clause
   - File: `src/main/java/de/tdosca/all/EnvService.java`
+  - LicenseID: BSD-2-Clause
   - LicenseText:
 
 ```
@@ -74,5 +74,3 @@ CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE)
 ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE
 POSSIBILITY OF SUCH DAMAGE.
 ```
-
-## 4) Multiply used license texts:
